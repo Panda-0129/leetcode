@@ -30,6 +30,6 @@ if __name__ == '__main__':
             all_accepted_sub.append(sub)
 
     for sub in all_accepted_sub:
-        w = LCDownloader(COOKIE)
+        w = LCDownloader(COOKIE, target_folder='TODO')
         w.write_to_md(sub)
     pass
