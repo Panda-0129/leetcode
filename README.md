@@ -1,6 +1,6 @@
 | #    | Title | Difficulty | runtime | memory |
 | ---- | ----- | ---------- | ------- | ------ |
-|1|[two-sum](https://github.com/Panda-0129/leetcode/blob/master/Markdown/[1]%20Two Sum.md)|Easy|4756 ms|13.7 MB|
+|1|[two-sum](https://github.com/Panda-0129/leetcode/blob/master/Markdown/[1]%20Two%20Sum.md)|Easy|4756 ms|13.7 MB|
 |2|[add-two-numbers](https://github.com/Panda-0129/leetcode/blob/master/Markdown/[2] Add Two Numbers.md)|Medium|80 ms|14.1 MB|
 |3|[longest-substring-without-repeating-characters](https://github.com/Panda-0129/leetcode/blob/master/Markdown/[3] Longest Substring Without Repeating Characters.md)|Medium|40 ms|12.1 MB|
 |4|[median-of-two-sorted-arrays](https://github.com/Panda-0129/leetcode/blob/master/Markdown/[4] Median of Two Sorted Arrays.md)|Hard|156 ms|14.6 MB|
