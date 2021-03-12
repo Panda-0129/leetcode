@@ -7,6 +7,11 @@ import requests
 
 from lc_api import *
 
+proxies = {
+    "https": 'socks5h://127.0.0.1:7890',
+    "http": 'socks5h://127.0.0.1:7890'
+}
+
 
 class LCDataRetriever:
     def __init__(self, cookie):
@@ -31,7 +36,7 @@ class LCDataRetriever:
 
         :return: json格式全部题目
         """
-        source = requests.get(lc_all, headers=self.headers, cookies=self.cookie)
+        source = requests.get(lc_all, headers=self.headers, cookies=self.cookie, proxies=proxies)
         return json.loads(source.text)
 
     def retrieve_question(self, title_slug):
@@ -51,7 +56,7 @@ class LCDataRetriever:
         }
         query_header = {**self.headers, 'Referer': 'https://leetcode.com/problems/%s/' % title_slug}
 
-        query = requests.post(url=api, json=json_data, headers=query_header, cookies=self.cookie)
+        query = requests.post(url=api, json=json_data, headers=query_header, cookies=self.cookie, proxies=proxies)
 
         ret = json.loads(query.text)
 
@@ -80,7 +85,7 @@ class LCDataRetriever:
                 "lastkey": lastkey,
                 "limit": str(limit),
                 "offset": str(offset_val),
-            }, headers=self.headers, cookies=self.cookie)
+            }, headers=self.headers, cookies=self.cookie, proxies=proxies)
 
             try:
                 tmp = json.loads(response.text)
