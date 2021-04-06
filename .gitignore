@@ -3,3 +3,4 @@
 __pycache__/lc_retriever.cpython-38.pyc
 __pycache__/lc_retriever.cpython-38.pyc
 *.pyc
+*.py
