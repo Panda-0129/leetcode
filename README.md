@@ -3,7 +3,7 @@ JackZhao98[项目](https://github.com/JackZhao98/LeetCode-DataRetriever)基础�
  + **retriever.py**: 获取所有ac，存入文件夹中
  + **generate_readme.py**: 自动生成readme.md
 | #    | Title | Difficulty | runtime | memory |
-| ---- | ----- | ---------- | ------- | ------ |---------|
+| ---- | ---- | ---- | ---- | ---- |----|
 |1|[Two Sum](https://github.com/Panda-0129/leetcode/blob/master/Markdown/[1]%20Two%20Sum.md)|Easy|4756 ms|13.7 MB|
 |2|[Add Two Numbers](https://github.com/Panda-0129/leetcode/blob/master/Markdown/[2]%20Add%20Two%20Numbers.md)|Medium|80 ms|14.1 MB|
 |3|[Longest Substring Without Repeating Characters](https://github.com/Panda-0129/leetcode/blob/master/Markdown/[3]%20Longest%20Substring%20Without%20Repeating%20Characters.md)|Medium|40 ms|12.1 MB|
